@@ -1,0 +1,297 @@
+@import url(font.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: #0C3C60;
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    padding-left: 170px;
+    align-items: center;
+}
+
+.a1, .a2 {
+    padding: 0 15px;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.a1:hover {
+    color: #4fb7e2;
+    transition: .5s;
+}
+
+.a2:hover {
+    color: #3a92ba;
+    transition: .5s;
+}
+
+.a2 {
+    display: flex;
+    align-items: center;
+}
+
+.a2 > span {
+    padding-right: 10px;
+}
+
+header > div > span {
+    color: #FFF;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-family: font-1-1791, serif;
+}
+
+header > div > span:nth-child(2) {
+    color: #7DCADA;
+}
+
+.mas-1 {
+    position: relative;
+    width: 100%;
+    height: 686px;
+    background: url("../image/dahuk.jpeg") no-repeat fixed;
+    background-size: cover;
+}
+
+.mas-1 > div {
+    position: absolute;
+    width: 100%;
+    height: 144px;
+    background: #FFF9;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mas-1 p {
+    font-family: font-2-1791, serif;
+    font-size: 18px;
+    color: #0C3C60;
+}
+
+.mas-1 h1 {
+    font-weight: 300;
+    font-size: 60px;
+    color: #0C3C60;
+    font-family: font-2-1791, serif;
+    padding-top: 15px;
+}
+
+.mas-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 30px;
+}
+
+.mas-2 > div {
+    width: 307px;
+    height: 343px;
+    background: #0C3C60;
+    color: #FFF;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    font-family: font-2-1791, serif;
+}
+
+.mas-2 h2 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.mas-2 p {
+    text-align: center;
+    font-size: 14px;
+    font-family: font-3-1791, serif;
+}
+
+.mas-2 button {
+    border: none;
+    padding: 9px 35px;
+    background: #39729B;
+    color: #FFF;
+    font-family: font-4-1791, serif;
+    font-size: 16px;
+}
+
+.chat {
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    width: 60px;
+    height: 60px;
+    background: #0C3C60;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+
+.mas-3 {
+    width: 100%;
+    background: #D1E0EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mas-3 h2 {
+    padding-top: 37px;
+    color: #0C3C60;
+    font-size: 60px;
+    font-family: font-1-1791, serif;
+    font-weight: 100;
+}
+
+.mas-3 p {
+    text-align: center;
+    font-size: 14px;
+    color: #245071;
+    font-family: font-1-1791, serif;
+    line-height: 1.5em;
+}
+
+.mas-3 p:nth-child(2) {
+    width: 681px;
+    padding: 45px 0 15px 0;
+}
+
+.mas-3 p:nth-child(3) {
+    width: 682px;
+    padding-bottom: 55px;
+}
+
+.mas-3 button {
+    background: #0C3C60;
+    border: none;
+    width: 128px;
+    height: 38px;
+    font-size: 16px;
+    color: #FFF;
+    font-family: font-3-1791, serif;
+    font-weight: 100;
+    margin-bottom: 102px;
+}
+
+.mas-3 > button:hover {
+    background: #39729b;
+    transition: .5s;
+}
+
+.mas-4 {
+    background: #0C3C60;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.mas-4 h2 {
+    color: #FFF;
+    font-family: font-1-1791, serif;
+    padding: 80px 0 65px 0;
+    font-size: 55px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.mas-4 {
+    color: #FFF;
+}
+
+.general {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.general div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.general div:nth-child(2) form > input {
+    width: 341px;
+    height: 32px;
+    margin-top: 10px;
+    float: right;
+}
+
+.general div:nth-child(2) form > label {
+    font-size: 14px;
+    float: left;
+}
+
+.general form {
+    width: 341px;
+}
+
+.general p {
+    font-size: 15px;
+    font-family: font-4-1791, serif;
+}
+
+.info {
+    padding-bottom: 37px;
+    text-align: center;
+}
+
+#message {
+    width: 340px;
+    height: 130px;
+}
+
+.mas-4 button {
+    margin-top: 15px;
+    padding: 7px 0 7px 0;
+    width: 147px;
+    border: none;
+    background: #39729B;
+    color: #FFF;
+    float: right;
+    margin-left: 10px;
+}
+
+.end {
+    padding: 171px 0 55px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.end p {
+    font-size: 14px;
+    font-family: font-1-1791, serif;
+    float: right;
+    padding-right: 44%;
+}
+
+footer {
+    padding: 0 230px 0 230px;
+}
+
+
+
